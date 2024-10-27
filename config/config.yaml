@@ -1,0 +1,6 @@
+data_paths:
+  drugs_csv: "data/drugs.csv"
+  pubmed_csv: "data/pubmed.csv"
+  pubmed_json: "data/pubmed.json"
+  clinical_trials_csv: "data/clinical_trials.csv"
+output_path: "output/results.json"

@@ -1,0 +1,145 @@
+{
+    "journals": [
+        {
+            "title": "American journal of veterinary research",
+            "referencedBy": {
+                "pubmedArticles": [
+                    {
+                        "articleId": "5",
+                        "articleTitle": "Appositional Tetracycline bone formation rates in the Beagle.",
+                        "mentionDate": "02/01/2020",
+                        "mentionedDrugName": "TETRACYCLINE"
+                    }
+                ],
+                "clinicalTrials": []
+            }
+        },
+        {
+            "title": "Hpitaux Universitaires de Genve",
+            "referencedBy": {
+                "pubmedArticles": [],
+                "clinicalTrials": [
+                    {
+                        "articleId": 5,
+                        "articleTitle": NaN,
+                        "mentionDate": "01/01/2020",
+                        "mentionedDrugName": "BETAMETHASONE"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Journal of emergency nursing",
+            "referencedBy": {
+                "pubmedArticles": [
+                    {
+                        "articleId": "1",
+                        "articleTitle": "A 44-year-old man with erythema of the face diphenhydramine, neck, and chest, weakness, and palpitations",
+                        "mentionDate": "01/01/2019",
+                        "mentionedDrugName": "DIPHENHYDRAMINE"
+                    },
+                    {
+                        "articleId": "2",
+                        "articleTitle": "An evaluation of benadryl, pyribenzamine, and other so-called diphenhydramine antihistaminic drugs in the treatment of allergy.",
+                        "mentionDate": "01/01/2019",
+                        "mentionedDrugName": "DIPHENHYDRAMINE"
+                    }
+                ],
+                "clinicalTrials": [
+                    {
+                        "articleId": 1,
+                        "articleTitle": NaN,
+                        "mentionDate": "01/01/2020",
+                        "mentionedDrugName": "DIPHENHYDRAMINE"
+                    },
+                    {
+                        "articleId": 2,
+                        "articleTitle": NaN,
+                        "mentionDate": "01/01/2020",
+                        "mentionedDrugName": "DIPHENHYDRAMINE"
+                    },
+                    {
+                        "articleId": 4,
+                        "articleTitle": NaN,
+                        "mentionDate": "01/01/2020",
+                        "mentionedDrugName": "DIPHENHYDRAMINE"
+                    },
+                    {
+                        "articleId": 8,
+                        "articleTitle": NaN,
+                        "mentionDate": "27/04/2020",
+                        "mentionedDrugName": "EPINEPHRINE"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Journal of food protection",
+            "referencedBy": {
+                "pubmedArticles": [
+                    {
+                        "articleId": "4",
+                        "articleTitle": "Tetracycline Resistance Patterns of Lactobacillus buchneri Group Strains.",
+                        "mentionDate": "01/01/2020",
+                        "mentionedDrugName": "TETRACYCLINE"
+                    }
+                ],
+                "clinicalTrials": []
+            }
+        },
+        {
+            "title": "Psychopharmacology",
+            "referencedBy": {
+                "pubmedArticles": [
+                    {
+                        "articleId": "6",
+                        "articleTitle": "Rapid reacquisition of contextual fear following extinction in mice: effects of amount of extinction, tetracycline acute ethanol withdrawal, and ethanol intoxication.",
+                        "mentionDate": "None",
+                        "mentionedDrugName": "TETRACYCLINE"
+                    },
+                    {
+                        "articleId": "6",
+                        "articleTitle": "Rapid reacquisition of contextual fear following extinction in mice: effects of amount of extinction, tetracycline acute ethanol withdrawal, and ethanol intoxication.",
+                        "mentionDate": "None",
+                        "mentionedDrugName": "ETHANOL"
+                    }
+                ],
+                "clinicalTrials": []
+            }
+        },
+        {
+            "title": "The Journal of pediatrics",
+            "referencedBy": {
+                "pubmedArticles": [
+                    {
+                        "articleId": "3",
+                        "articleTitle": "Diphenhydramine hydrochloride helps symptoms of ciguatera fish poisoning.",
+                        "mentionDate": "02/01/2019",
+                        "mentionedDrugName": "DIPHENHYDRAMINE"
+                    }
+                ],
+                "clinicalTrials": []
+            }
+        },
+        {
+            "title": "The journal of allergy and clinical immunology. In practice",
+            "referencedBy": {
+                "pubmedArticles": [
+                    {
+                        "articleId": "7",
+                        "articleTitle": "The High Cost of Epinephrine Autoinjectors and Possible Alternatives.",
+                        "mentionDate": "01/02/2020",
+                        "mentionedDrugName": "EPINEPHRINE"
+                    },
+                    {
+                        "articleId": "8",
+                        "articleTitle": "Time to epinephrine treatment is associated with the risk of mortality in children who achieve sustained ROSC after traumatic out-of-hospital cardiac arrest.",
+                        "mentionDate": "01/03/2020",
+                        "mentionedDrugName": "EPINEPHRINE"
+                    }
+                ],
+                "clinicalTrials": []
+            }
+        }
+    ]
+}

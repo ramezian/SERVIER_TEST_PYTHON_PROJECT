@@ -1,0 +1,44 @@
+# Utiliser une image Docker Python comme environnement de base pour exécuter les étapes
+image: docker:latest
+
+# Activer le service Docker pour construire et pousser des images
+services:
+  - docker:dind
+
+# Variables pour simplifier le code
+variables:
+  DOCKER_DRIVER: overlay2
+  IMAGE_NAME: "registry.gitlab.com/your-username/your-repo-name/servier_project_image"
+
+stages:
+  - test
+  - build
+  - deploy
+
+# Étape 1 : Tester l'application
+test:
+  stage: test
+  script:
+    - docker build -t $IMAGE_NAME .
+    - docker run --rm $IMAGE_NAME pytest tests/
+  only:
+    - merge_requests
+    - main
+
+# Étape 2 : Construire l'image Docker
+build:
+  stage: build
+  script:
+    - docker build -t $IMAGE_NAME .
+    - docker tag $IMAGE_NAME $IMAGE_NAME:$CI_COMMIT_SHORT_SHA
+  only:
+    - main
+
+# Étape 3 : Pousser l'image sur le registre GitLab
+deploy:
+  stage: deploy
+  script:
+    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin $CI_REGISTRY
+    - docker push $IMAGE_NAME:$CI_COMMIT_SHORT_SHA
+  only:
+    - main
