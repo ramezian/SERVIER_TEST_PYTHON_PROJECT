@@ -165,7 +165,7 @@ To handle larger data volumes, the project can be scaled for Big Data using PySp
     - We will be using BigQuery's SQL notation
     - Since we are using BigQuery, then we assuume that the date will automatically be fixed and converted to %Y-%m-%d instead of %d/%m/%Y, so no need to use `FORMAT_DATE()` or `PARSE_DATE()` functions
 
-- Query 1 : Daily sales between January 1st 2019 and December 31st 2019 => Check [query_1_sales_by_day.sql](sql/query_1_sales_by_day.sql)
+- Query 1 : Daily sales between January 1st 2019 and December 31st 2019 
 ```sql
 SELECT
     date AS date,
@@ -181,7 +181,7 @@ ORDER BY
 ```
 
 
-- Query 2 : Decoration and Furniture sales by client, between January 1st 2019 and December 31st 2019 => Check [query_2_sales_by_product_type.sql](sql/query_2_sales_by_product_type.sql)
+- Query 2 : Decoration and Furniture sales by client, between January 1st 2019 and December 31st 2019 
 ```sql
 SELECT
     t.client_id AS client_id,
