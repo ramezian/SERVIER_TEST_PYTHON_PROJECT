@@ -11,7 +11,7 @@ This project provides a solution for Servier’s data engineering technical test
 - Production Pipeline Adaptation (Docker, CI/CD, Airflow Composer)
 - Execution for Big Data
 
-### II. SQL SECTION
+# II. SQL SECTION
 - SQl queries
 
 
@@ -158,7 +158,7 @@ To manage and schedule the execution of this pipeline in production, Google Clou
 To handle larger data volumes, the project can be scaled for Big Data using PySpark or by loading data into BigQuery for distributed SQL analysis.
 
 
-### II.  SQL SECTION
+# II.  SQL SECTION
 
 - Before we start, here is a list of hypothesis that I infered before solving the problems :
     - The tables are inside a dataset called `test_servier`
