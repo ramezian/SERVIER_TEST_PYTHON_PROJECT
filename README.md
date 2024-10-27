@@ -1,8 +1,8 @@
 # SERVIER_PYTHON_TEST_PROJECT - Documentation
 This project provides a solution for Servier’s data engineering technical test. The main objective is to analyze journal data to identify drug mentions within PubMed articles and clinical trial studies. The project is structured with multiple Python modules, configuration files, and testing scripts.
 
-# Table of Contents
- ### I. DATA PIPELINE SECTION
+# TABLE OF CONTENTS
+ ### I. DATA PIPELINE 
 - Project Hypotheses
 - Configuration and Prerequisites
 - Installation and Packaging
@@ -11,12 +11,12 @@ This project provides a solution for Servier’s data engineering technical test
 - Production Pipeline Adaptation (Docker, CI/CD, Airflow Composer)
 - Execution for Big Data
 
-# II. SQL SECTION
+### II. SQL 
 - SQl queries
 
 
 
-## I. DATA PIPELINE SECTION
+# I. DATA PIPELINE 
 
 ## Project Hypotheses
 - Only articles mentioning a drug in the title are analyzed. Articles without drug mentions are excluded.
@@ -158,7 +158,7 @@ To manage and schedule the execution of this pipeline in production, Google Clou
 To handle larger data volumes, the project can be scaled for Big Data using PySpark or by loading data into BigQuery for distributed SQL analysis.
 
 
-# II.  SQL SECTION
+# II.  SQL 
 
 - Before we start, here is a list of hypothesis that I infered before solving the problems :
     - The tables are inside a dataset called `test_servier`
